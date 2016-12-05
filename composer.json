@@ -1,0 +1,33 @@
+{
+	"name": "ajskelton/sandbox",
+	"description": "Sandbox Test Site",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Anthony Skelton",
+			"email": "anthony@anthonyskelton.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"raveren/kint": "~1.0",
+		"filp/whoops": "~2.0"
+	},
+	"autoload": {
+		"files": [
+			"src/support/exceptions.php",
+			"demo.php"
+		]
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	},
+	"config": {
+		"vendor-dir": "assets/vendor"
+	},
+	"minimum-stability": "dev"
+}
